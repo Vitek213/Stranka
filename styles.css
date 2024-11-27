@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 200px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 40px;
+    margin: 5px 0;
+    background-color: #ffffff;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-section {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-left h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-left p {
+    font-size: 19px;
+    color: #666;
+    text-align: left;
+}
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+footer a {
+    color: white;
+    margin: 0 15px;
+}
+.nazev{
+    color: #ffffff;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: crimson;
+}
